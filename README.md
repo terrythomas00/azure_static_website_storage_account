@@ -83,3 +83,4 @@ az storage blob upload-batch -s ./site -d '$web' --account-name $SA --account-ke
 WEB=$(az storage account show -n $SA -g $RG --query "primaryEndpoints.web" -o tsv)
 echo "Website: $WEB"
 ```
+# Next Steps - Hardened and Secure
